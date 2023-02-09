@@ -1,0 +1,45 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Calibre, "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+#nav-logo{
+  width: 350px;
+}
+
+.nav-links-container a, button{
+  margin: 0px 12px;
+}
+
+#nav-button-signup{
+  padding: 0px 30px;
+  background-color: rgb(0, 197, 133);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(0, 197, 133);
+  border-radius: 8px;
+  color: white;
+  height: 50px;
+  font-size: 20px;
+}
+
+.nav-links-container a {
+  padding-bottom: 4px;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom .2s;
+  text-decoration: none;
+}
+
+.nav-links-container a:hover{
+
+  border-color: dimgray;
+
+}
+
+body {
+  background-color: rgb(243, 242, 239);
+}
