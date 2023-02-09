@@ -35,9 +35,11 @@
 }
 
 .nav-links-container a:hover{
-
   border-color: dimgray;
+}
 
+#nav-button-signup:hover{
+  background-color: rgb(11, 150, 106);
 }
 
 body {
