@@ -1,10 +1,15 @@
+
+
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-family: Calibre, "Helvetica Neue", sans-serif;
   font-size: 20px;
-  padding: 10px 20px;
+  padding: 10px 20px 50px;
+
+  position: relative;
+  overflow: auto;
 }
 
 #nav-logo{
@@ -42,6 +47,70 @@
   background-color: rgb(11, 150, 106);
 }
 
+.content-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#content-header-main-text{
+  font-family: Calibre, Helvetica, Arial, sans-serif;
+  color: #28400C;
+  display: flex;
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: -1.44px;
+  line-height: 78px;
+  margin-bottom: 0;
+}
+
+#content-header-sub-text{
+  color: #28400C;
+
+  font-family: Calibre, Helvetica, Arial, sans-serif;
+  display: flex;
+  width: 490px;
+  font-size: 28px;
+  flex-direction: column;
+  font-weight: 500;
+  letter-spacing: 0px;
+  line-height: 34px;
+  letter-spacing: 2px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.booking-container{
+  margin: 0px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.booking-image-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#booking-image{
+  border-radius: 25px;
+}
+
+.booking-bar{
+  /* border: red 1px solid; */
+  background-color: white;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 body {
+  font-family: Calibre, Helvetica, Arial, sans-serif;
   background-color: rgb(243, 242, 239);
 }
